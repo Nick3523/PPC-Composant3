@@ -10,17 +10,19 @@ using std::cout;
 using std::endl;
 
 
-Bloc mineur(unsigned int difficulty, Bloc b) {
+Bloc miner(unsigned int difficulty, Bloc b) {
 	string strHash;
 	int nbZeros;
 	do {
 		b.nonce++;
 		nbZeros = 0;
 		strHash = hash(b.ToString());
-		for (int i; i < strHash.size(); i++) {
+		for (int i= HASH_SIZE-1; i >= 0; i--) {
 			if (strHash[i] == '0') nbZeros++;
+			else break;
 		}
 	} while (nbZeros < difficulty);
+	strcpy(b.hash, hash(b.ToString()).c_str);
 	return b;
 }
 
