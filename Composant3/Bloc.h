@@ -37,8 +37,8 @@ class UTXO // une sortie non dépensée
 
 class TX { // transaction standard (many inputs, many outputs)
  public:
-  std::vector<txi>	TXIs;
-  std::vector<utxo>	UTXOs;
+  std::vector<TXI>	TXIs;
+  std::vector<UTXO>	UTXOs;
 };
 
 class TXM { // transaction du mineur : coinbase
@@ -57,7 +57,9 @@ class Bloc
 	TX tx1; //  transaction du bloc
 	TXM tx0; // transaction du mineur (coinbase)
 
-	std::string ToString();
+	std::string Bloc::toString();
+
+	Bloc();
 };
 
 #endif

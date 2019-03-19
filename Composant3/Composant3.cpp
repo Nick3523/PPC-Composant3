@@ -5,6 +5,8 @@
 #include <iostream>
 #include <vector>
 #include "Bloc.h"
+#ifndef _CRT_SECURE_NO_WARNINGS
+#endif
 using std::string;
 using std::cout;
 using std::endl;
@@ -16,13 +18,13 @@ Bloc miner(unsigned int difficulty, Bloc b) {
 	do {
 		b.nonce++;
 		nbZeros = 0;
-		strHash = hash(b.ToString());
+		strHash = hash(b.toString());
 		for (int i= HASH_SIZE-1; i >= 0; i--) {
 			if (strHash[i] == '0') nbZeros++;
 			else break;
 		}
 	} while (nbZeros < difficulty);
-	strcpy(b.hash, hash(b.ToString()).c_str);
+	strcpy_s(b.hash, strHash.c_str());
 	return b;
 }
 
