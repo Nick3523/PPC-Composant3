@@ -5,8 +5,6 @@
 #include <iostream>
 #include <vector>
 #include "Bloc.h"
-#ifndef _CRT_SECURE_NO_WARNINGS
-#endif
 using std::string;
 using std::cout;
 using std::endl;

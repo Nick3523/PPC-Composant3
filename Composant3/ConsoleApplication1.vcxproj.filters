@@ -24,14 +24,14 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\interfaces\hash.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="hash.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Bloc.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Composant3.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sha256.h">
       <Filter>Source Files</Filter>

@@ -146,8 +146,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\interfaces\hash.h" />
     <ClInclude Include="Bloc.h" />
+    <ClInclude Include="Composant3.h" />
     <ClInclude Include="hash.h" />
     <ClInclude Include="sha256.h" />
     <ClInclude Include="stdafx.h" />
@@ -164,11 +164,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\sha256\Sha256.vcxproj">
-      <Project>{8f67bcf7-1aa7-49ee-8a3c-22efcd6f06e8}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

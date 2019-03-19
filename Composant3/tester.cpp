@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "composant3.cpp"
+#include "composant3.h"
 #include <iostream>
 #include <vector>
 using std::string;
