@@ -4,7 +4,7 @@
 #include "Bloc.h"
 
 
-std::string Bloc::toString() {
+std::string Bloc::ToString() {
 		return "fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo" + nonce;
 }
 

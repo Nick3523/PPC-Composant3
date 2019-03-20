@@ -30,11 +30,8 @@
     <ClInclude Include="Bloc.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Composant3.h">
+    <ClInclude Include="Mineur.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="sha256.h">
-      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -44,13 +41,13 @@
     <ClCompile Include="tester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Composant3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DummyBloc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sha256.cpp">
+    <ClCompile Include="DummyHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mineur.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

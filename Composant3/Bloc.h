@@ -57,7 +57,7 @@ class Bloc
 	TX tx1; //  transaction du bloc
 	TXM tx0; // transaction du mineur (coinbase)
 
-	std::string Bloc::toString();
+	std::string Bloc::ToString();
 
 	Bloc();
 };

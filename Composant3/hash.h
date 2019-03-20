@@ -3,6 +3,7 @@
 #define HASH_H
 
 #include <string>
+#include "Bloc.h"
 
 #ifdef HASH_EXPORTS
 	#define HASH_INTERFACE __declspec(dllexport)
@@ -11,7 +12,7 @@
 #endif
 
 
-HASH_INTERFACE  std::string hash(std::string input);
+HASH_INTERFACE  std::string hash(Bloc b);
 HASH_INTERFACE  std::string hashName();
 HASH_INTERFACE  std::string version();
 

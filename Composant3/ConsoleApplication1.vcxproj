@@ -147,16 +147,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bloc.h" />
-    <ClInclude Include="Composant3.h" />
+    <ClInclude Include="Mineur.h" />
     <ClInclude Include="hash.h" />
-    <ClInclude Include="sha256.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Composant3.cpp" />
+    <ClCompile Include="Mineur.cpp" />
     <ClCompile Include="DummyBloc.cpp" />
-    <ClCompile Include="sha256.cpp" />
+    <ClCompile Include="DummyHash.cpp" />
     <ClCompile Include="tester.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
