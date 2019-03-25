@@ -3,7 +3,7 @@
 #include <string>
 #include "Bloc.h"
 
-std::string hash(Bloc b) {
+std::string hash(std::string b) {
 	return "000000000000000000000000000000000000000000000000000000000000000"; /*64 zeros*/
 }
 std::string hashName() {

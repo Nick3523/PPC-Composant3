@@ -23,9 +23,9 @@ Bloc miner(unsigned int difficulty, Bloc b) {
 	int nbZeros;
 	do {
 		b.nonce++;
-		strHash = hash(b);
+		strHash = hash(b.ToString());
 		nbZeros = nbZerosCounter(strHash);
-	} while (nbZeros < difficulty);
+	} while ((unsigned) nbZeros < difficulty);
 	strcpy_s(b.hash, strHash.c_str());
 	return b;
 }

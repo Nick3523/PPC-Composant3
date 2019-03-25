@@ -12,7 +12,7 @@
 #endif
 
 
-HASH_INTERFACE  std::string hash(Bloc b);
+HASH_INTERFACE  std::string hash(std::string b);
 HASH_INTERFACE  std::string hashName();
 HASH_INTERFACE  std::string version();
 

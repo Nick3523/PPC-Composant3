@@ -1,11 +1,9 @@
 ﻿  stdafx.cpp
   Mineur.cpp
-c:\users\meghly17\documents\visual studio 2015\projects\consoleapplication2\consoleapplication2\mineur.cpp(28): warning C4018: '<' : incompatibilité signed/unsigned
   DummyHash.cpp
   DummyBloc.cpp
   ConsoleApplication2.cpp
   Génération de code en cours...
   dllmain.cpp
-Mineur.obj : warning LNK4217: symbole défini localement ?hash@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VBloc@@@Z (class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl hash(class Bloc)) importé dans la fonction "class Bloc __cdecl miner(unsigned int,class Bloc)" (?miner@@YA?AVBloc@@IV1@@Z)
-  ConsoleApplication2.vcxproj -> C:\Users\meghly17\documents\visual studio 2015\Projects\ConsoleApplication3\Debug\Composant3Dll.dll
-  ConsoleApplication2.vcxproj -> C:\Users\meghly17\documents\visual studio 2015\Projects\ConsoleApplication3\Debug\Composant3Dll.pdb (Full PDB)
+  ConsoleApplication2.vcxproj -> C:\Users\meghly17\Documents\Visual Studio 2015\Projects\ConsoleApplication3\Debug\Composant3Dll.dll
+  ConsoleApplication2.vcxproj -> C:\Users\meghly17\Documents\Visual Studio 2015\Projects\ConsoleApplication3\Debug\Composant3Dll.pdb (Full PDB)
