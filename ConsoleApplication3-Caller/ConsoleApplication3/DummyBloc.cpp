@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "hash.h"
 #include <iostream>
 #include "Bloc.h"
 

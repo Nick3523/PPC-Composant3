@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "Mineur.h"
-#include "hash.h"
+#include "Hacheur.h"
 #include <iostream>
 #include <vector>
 #include "Bloc.h"
@@ -22,8 +22,11 @@ Bloc miner(unsigned int difficulty, Bloc b) {
 	string strHash;
 	int nbZeros;
 	do {
+		Hacheur hacheur = Hacheur();
 		b.nonce++;
-		strHash = hash(b.ToString());
+		cout << "string:" << b.ToString() << endl;
+		strHash = hacheur.hacher(b.ToString());
+		cout << "hash:" << strHash << endl;
 		nbZeros = nbZerosCounter(strHash);
 	} while ((unsigned) nbZeros < difficulty);
 	strcpy_s(b.hash, strHash.c_str());

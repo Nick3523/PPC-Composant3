@@ -150,7 +150,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hash.h" />
+    <ClInclude Include="Hacheur.h" />
     <ClInclude Include="Bloc.h" />
     <ClInclude Include="Mineur.h" />
     <ClInclude Include="stdafx.h" />
@@ -173,7 +173,6 @@
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="DummyBloc.cpp" />
-    <ClCompile Include="DummyHash.cpp" />
     <ClCompile Include="Mineur.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -181,6 +180,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Composant4-master\Composant4\Composant4.vcxproj">
+      <Project>{9713aad0-6172-4e5d-80bf-774f462673a5}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
