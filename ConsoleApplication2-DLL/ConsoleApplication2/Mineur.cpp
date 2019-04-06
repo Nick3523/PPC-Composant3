@@ -29,7 +29,9 @@ Bloc miner(unsigned int difficulty, Bloc b) {
 		cout << "hash:" << strHash << endl;
 		nbZeros = nbZerosCounter(strHash);
 	} while ((unsigned) nbZeros < difficulty);
-	strcpy_s(b.hash, strHash.c_str());
+	for (int i = 0; i < HASH_SIZE; i++) {
+		b.hash[i] = strHash[i];
+	}
 	return b;
 }
 

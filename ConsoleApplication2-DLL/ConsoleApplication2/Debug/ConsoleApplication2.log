@@ -1,9 +1,3 @@
-﻿  stdafx.cpp
-  Mineur.cpp
-  DummyBloc.cpp
-  ConsoleApplication2.cpp
-  Generating Code...
-  dllmain.cpp
-     Creating library C:\Users\anton\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant3Dll.lib and object C:\Users\anton\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant3Dll.exp
+﻿  Mineur.cpp
   ConsoleApplication2.vcxproj -> C:\Users\anton\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant3Dll.dll
   ConsoleApplication2.vcxproj -> C:\Users\anton\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant3Dll.pdb (Full PDB)
