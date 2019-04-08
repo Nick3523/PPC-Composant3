@@ -1,3 +1,6 @@
-﻿  tester.cpp
-  ConsoleApplication3.vcxproj -> C:\Users\anton\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\ConsoleApplication3.exe
-  ConsoleApplication3.vcxproj -> C:\Users\anton\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\ConsoleApplication3.pdb (Full PDB)
+﻿  stdafx.cpp
+  tester.cpp
+  DummyBloc.cpp
+  Génération de code en cours...
+  ConsoleApplication3.vcxproj -> C:\Users\meghly17\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\ConsoleApplication3.exe
+  ConsoleApplication3.vcxproj -> C:\Users\meghly17\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\ConsoleApplication3.pdb (Full PDB)
