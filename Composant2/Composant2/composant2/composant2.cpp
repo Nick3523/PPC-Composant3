@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "composant1.h"
 #include "composant6.h"
-#include "bloc.h"
+#include "Bloc.h"
 #include <stdlib.h>
 #include <vector>
 #include <iostream> 
@@ -13,8 +13,8 @@
 std::vector<UTXO> getUTXO(Bloc b)
 {
 	std::vector<UTXO> vec;
-	vec.push_back(b.tx1.utxo[0]);
-	vec.push_back(b.tx1.utxo[1]);
+	vec.push_back(b.tx1.UTXOs[0]);
+	vec.push_back(b.tx1.UTXOs[1]);
 
 	return vec;
 }
@@ -69,17 +69,17 @@ TX createTransaction(unsigned char privateKey[4], unsigned char publicKey[4], fl
 
 	if(montant >= verifyAmount(getPublicKey(privateKey)))
 	{
-		transaction.utxo[0].dest[0] = publicKey[0];
-		transaction.utxo[0].dest[1] = publicKey[1];
-		transaction.utxo[0].dest[2] = publicKey[2];
-		transaction.utxo[0].dest[3] = publicKey[3];
-		transaction.utxo[0].montant = montant;
+		transaction.UTXOs[0].dest[0] = publicKey[0];
+		transaction.UTXOs[0].dest[1] = publicKey[1];
+		transaction.UTXOs[0].dest[2] = publicKey[2];
+		transaction.UTXOs[0].dest[3] = publicKey[3];
+		transaction.UTXOs[0].montant = montant;
 
-		transaction.utxo[1].dest[0] = getPublicKey(privateKey)[0];
-		transaction.utxo[1].dest[1] = getPublicKey(privateKey)[1];
-		transaction.utxo[1].dest[2] = getPublicKey(privateKey)[2];
-		transaction.utxo[1].dest[3] = getPublicKey(privateKey)[3];
-		transaction.utxo[1].montant = verifyAmount(getPublicKey(privateKey)) - montant;
+		transaction.UTXOs[1].dest[0] = getPublicKey(privateKey)[0];
+		transaction.UTXOs[1].dest[1] = getPublicKey(privateKey)[1];
+		transaction.UTXOs[1].dest[2] = getPublicKey(privateKey)[2];
+		transaction.UTXOs[1].dest[3] = getPublicKey(privateKey)[3];
+		transaction.UTXOs[1].montant = verifyAmount(getPublicKey(privateKey)) - montant;
 	}
 
 	return transaction;

@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "bloc.h"
+#include "Bloc.h"
 #include <stdlib.h> 
 #include <iostream> 
 #include <vector>
@@ -10,14 +10,22 @@ std::vector<Bloc> getBlocs() // on simule la fonction de composant 1 et on renvo
 	Bloc b;
 	Bloc c;
 
-	a.tx1.utxo[0].montant = 4;
-	a.tx1.utxo[1].montant = 3;
+	UTXO txo;
 
-	b.tx1.utxo[0].montant = 5;
-	b.tx1.utxo[1].montant = 6;
+	txo.montant = 4;
+	a.tx1.UTXOs.push_back(txo);
+	txo.montant = 3;
+	a.tx1.UTXOs.push_back(txo);
 
-	c.tx1.utxo[0].montant = 1;
-	c.tx1.utxo[1].montant = 2;
+	txo.montant = 5;
+	b.tx1.UTXOs.push_back(txo);
+	txo.montant = 6;
+	b.tx1.UTXOs.push_back(txo);
+
+	txo.montant = 1;
+	c.tx1.UTXOs.push_back(txo);
+	txo.montant = 2;
+	c.tx1.UTXOs.push_back(txo);
 
 	std::vector<Bloc> v;
 	v.push_back(a);
