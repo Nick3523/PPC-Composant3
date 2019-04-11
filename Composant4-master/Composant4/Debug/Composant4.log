@@ -1,6 +1,6 @@
 ﻿  Hacheur.cpp
-c:\users\meghly17\documents\github\ppc-composant3\composant4-master\composant4\hacheur.h(7): warning C4005: 'COMPOSANT4_EXPORT_INTERFACE' : redéfinition de macro
-  c:\users\meghly17\documents\github\ppc-composant3\composant4-master\composant4\hacheur.h(7): note: arguments de ligne de commande : voir la définition précédente de 'COMPOSANT4_EXPORT_INTERFACE'
-     Création de la bibliothèque C:\Users\meghly17\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.lib et de l'objet C:\Users\meghly17\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.exp
-  Composant4.vcxproj -> C:\Users\meghly17\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.dll
-  Composant4.vcxproj -> C:\Users\meghly17\Documents\GitHub\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.pdb (Full PDB)
+c:\users\jluu\documents\dauphine_m2if_2019\debug\ppc-composant3\composant4-master\composant4\hacheur.h(7): warning C4005: 'COMPOSANT4_EXPORT_INTERFACE': macro redefinition
+  c:\users\jluu\documents\dauphine_m2if_2019\debug\ppc-composant3\composant4-master\composant4\hacheur.h(7): note: command-line arguments:  see previous definition of 'COMPOSANT4_EXPORT_INTERFACE'
+     Creating library C:\Users\jluu\Documents\Dauphine_M2IF_2019\debug\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.lib and object C:\Users\jluu\Documents\Dauphine_M2IF_2019\debug\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.exp
+  Composant4.vcxproj -> C:\Users\jluu\Documents\Dauphine_M2IF_2019\debug\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.dll
+  Composant4.vcxproj -> C:\Users\jluu\Documents\Dauphine_M2IF_2019\debug\PPC-Composant3\ConsoleApplication3-Caller\Debug\Composant4.pdb (Full PDB)

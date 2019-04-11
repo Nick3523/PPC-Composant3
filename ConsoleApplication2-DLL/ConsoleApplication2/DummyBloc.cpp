@@ -8,7 +8,5 @@ std::string Bloc::ToString() {
 	return "foooooooo" + std::to_string(nonce);
 }
 
-Bloc::Bloc() {
-	nonce = 0;
-}
+
 

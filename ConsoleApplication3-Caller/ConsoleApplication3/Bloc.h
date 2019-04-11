@@ -2,6 +2,7 @@
 #ifndef _BLOC_H
 
 #include <vector>
+#include <string>
 
 //
 // bloc.h  version 1.1
@@ -59,7 +60,9 @@ public:
 
 	std::string Bloc::ToString();
 
-	Bloc();
+	Bloc() {
+		nonce = 0;
+	}
 };
 
 #endif
