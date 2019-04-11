@@ -1,0 +1,10 @@
+﻿  composant1.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  composant6.cpp
+  composant2.cpp
+  Generating Code...
+c:\users\jluu\documents\dauphine_m2if_2019\debug\ppc-composant3\composant2\composant2\composant2\composant6.cpp(22): warning C4172: returning address of local variable or temporary: fin
+  composant2.vcxproj -> C:\Users\jluu\Documents\Dauphine_M2IF_2019\debug\PPC-Composant3\ConsoleApplication3-Caller\Debug\composant2.exe
+  composant2.vcxproj -> C:\Users\jluu\Documents\Dauphine_M2IF_2019\debug\PPC-Composant3\ConsoleApplication3-Caller\Debug\composant2.pdb (Full PDB)
